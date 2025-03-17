@@ -1,0 +1,30 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    text-align: center;
+    background-color: black; /* Optional: Pac-Man theme */
+    color: yellow; /* Optional: Pac-Man theme */
+    overflow: hidden !important;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+  
